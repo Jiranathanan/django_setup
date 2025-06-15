@@ -13,4 +13,8 @@
 
 	# create superuser
 	poetry run python ./manage.py createsuperuser
+
+	# create a Django app
+	poetry run python ./manage.py startapp app
 ```
+
